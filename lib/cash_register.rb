@@ -10,8 +10,8 @@ def initialize(discount = 0)
  @last_transaction = []
 end 
   
-def add_item
-  @total - 
+def add_item(title, price, quantity = 1)
+  @total  
 end
 
 def apply_discount

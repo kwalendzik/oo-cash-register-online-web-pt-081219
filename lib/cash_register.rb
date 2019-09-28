@@ -10,7 +10,17 @@ def initialize(discount = 0)
  @void = []
 end 
   
+def add_item
+  @total - 
+end
+
+def apply_discount
   
+end
+
+def void_last_transaction
+  
+end
   
   
 end

@@ -10,8 +10,7 @@ def initialize(discount = 0)
  @void = []
 end 
   
-def discount
-  self.discount
-end
+  
+  
   
 end

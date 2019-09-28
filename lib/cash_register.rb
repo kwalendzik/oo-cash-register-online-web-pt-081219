@@ -18,7 +18,7 @@ def add_item(title, price, quantity = 1)
   @last_transaction << price*quantity
 end
 
-def apply_discount
+def apply_discount(array)
   if @discount > 0 
   @discount_cost = (@total * @discount) / 100 )
   @total -= @discount_cost

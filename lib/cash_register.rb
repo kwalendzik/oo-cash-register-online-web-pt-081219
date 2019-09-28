@@ -18,8 +18,8 @@ def add_item(title, price, quantity = 1)
   @last_transaction << price*quantity
 end
 
-def apply_discount(array)
-  if @discount > 0 
+def apply_discount
+  if discount > 0 
   @discount_cost = (@total * @discount) / 100 )
   @total -= @discount_cost
   "After the discount, the total comes to $#{@total}."
